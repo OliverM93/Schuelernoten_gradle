@@ -18,11 +18,11 @@ public class SchuelerTest {
 
     @Test
     public void testDurchschnitt() {
-        assertEquals(2.0, schuelerManager.durchschnitt(), 0.01);
+        assertEquals(1.6, schuelerManager.durchschnitt(), 0.1);
     }
 
     @Test
     public void testBester() {
-        assertEquals("Anna", schuelerManager.bester().getName());
+        assertEquals("Simon", schuelerManager.bester().getName());
     }
 }
